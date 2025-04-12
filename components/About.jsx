@@ -6,6 +6,7 @@ import { motion } from "motion/react"
 const About = ({isDarkMode}) => {
   return (
     <motion.div id='about' className='w-full px-[12%] py-10 scroll-mt-20'
+    viewport={{ once: true }}
     initial={{opacity: 0}}
     whileInView={{opacity: 1}}
     transition={{duration: 1}}
@@ -25,6 +26,7 @@ const About = ({isDarkMode}) => {
         About me</motion.h2>
 
         <motion.div 
+        viewport={{ once: true }}
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{duration: 0.8}}
@@ -37,14 +39,17 @@ const About = ({isDarkMode}) => {
                 <Image src={assets.user_image} alt='user' className='w-full rounded-3xl'/>
             </motion.div>
             <motion.div 
+            viewport={{ once: true }}
             initial={{opacity: 0}}
             whileInView={{opacity: 1}}
             transition={{duration: 0.6, delay: 0.8}}
             className='flex-1'>
-                <p className='mb-10 max-w-2xl font-Ovo'
-                >I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
+                <p className='mb-10 max-w-2xl font-Ovo'>
+                    I’m a full-stack developer with 3 years of experience in the IT industry. I've had the opportunity to work with both startups and large enterprises, contributing to their growth through scalable and impactful solutions. I currently work as a full-stack developer at <a href='https://www.kimshospitals.com/' target='_blank' rel='noopener noreferrer' className='text-blue-500'>KIMS Hosptials</a>, where I focus on building robust mobile applications using the MERN stack. My passion lies in creating user-friendly interfaces and optimizing backend performance to deliver seamless experiences.
+                </p>
 
                 <motion.ul
+                viewport={{ once: true }}
                 initial={{opacity: 0}}
                 whileInView={{opacity: 1}}
                 transition={{duration: 0.8, delay: 1}}
@@ -68,6 +73,7 @@ const About = ({isDarkMode}) => {
                 className='my-6 text-gray-700 font-Ovo dark:text-white/80'>Tools I use</motion.h4>
 
                 <motion.ul
+                viewport={{ once: true }}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ delay: 1.5, duration: 0.6 }}

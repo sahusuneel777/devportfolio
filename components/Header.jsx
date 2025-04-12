@@ -15,6 +15,7 @@ const Header = () => {
         <Image src={assets.profile_img} alt='' className='rounded-full w-32'/>
       </motion.div>
       <motion.h3 
+      viewport={{ once: true }}
       initial={{y: -20, opacity: 0}}
       whileInView={{y: 0, opacity: 1}}
       transition={{duration: 0.6, delay: 0.3}}
@@ -24,10 +25,12 @@ const Header = () => {
     initial={{y: -30, opacity: 0}}
     whileInView={{y: 0, opacity: 1}}
     transition={{duration: 0.8, delay: 0.5}}
+    viewport={{ once: true }}
     className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
         software developer based in Hyderabad.</motion.h1>
 
         <motion.p
+        viewport={{ once: true }}
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{duration: 0.6, delay: 0.7}}

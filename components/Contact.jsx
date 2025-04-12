@@ -62,6 +62,7 @@ const Contact = () => {
       I'd love to hear from you! If you have any questions, comments, or feedback, please use the form below.</motion.p>
 
       <motion.form
+    viewport={{ once: true }}
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ delay: 0.9, duration: 0.5 }}
@@ -69,6 +70,7 @@ const Contact = () => {
         <div className='grid grid-cols-auto gap-6 mt-10 mb-8'>
 
             <motion.input
+            viewport={{ once: true }}
             initial={{ x: -50, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ delay: 1.1, duration: 0.6 }}
@@ -76,6 +78,7 @@ const Contact = () => {
             className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90' name='name'/>
 
             <motion.input
+            viewport={{ once: true }}
             initial={{ x: 50, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ delay: 1.2, duration: 0.6 }}
@@ -84,6 +87,7 @@ const Contact = () => {
 
         </div>
         <motion.textarea 
+        viewport={{ once: true }}
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ delay: 1.3, duration: 0.6 }}
