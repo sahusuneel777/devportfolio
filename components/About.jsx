@@ -45,7 +45,7 @@ const About = ({isDarkMode}) => {
             transition={{duration: 0.6, delay: 0.8}}
             className='flex-1'>
                 <p className='mb-10 max-w-2xl font-Ovo'>
-                    I’m a full-stack developer with 3 years of experience in the IT industry. I've had the opportunity to work with both startups and large enterprises, contributing to their growth through scalable and impactful solutions. I currently work as a full-stack developer at <a href='https://www.kimshospitals.com/' target='_blank' rel='noopener noreferrer' className='text-blue-500'>KIMS Hosptials</a>, where I focus on building robust mobile applications using the MERN stack. My passion lies in creating user-friendly interfaces and optimizing backend performance to deliver seamless experiences.
+                    I'm a Full-stack developer with a passion for building modern web and mobile applications. Skilled in React, React Native, Node.js, MongoDB and cloud. I create user-focused, scalable solutions with clean code and smooth UX. Always learning, always shipping. 🚀
                 </p>
 
                 <motion.ul
