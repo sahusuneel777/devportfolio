@@ -88,23 +88,25 @@ export const workData = [
         title: 'ZoomIn',
         description: 'Video Conferencing App',
         bgImage: '/work-1.png',
-        link:'https://suneelzoomin.netlify.app/',
+        link:'https://github.com/sahusuneel777/react-zoom-clone',
     },
     {
         title: 'QuickBite',
         description: 'Food Delivery Mobile App',
-        bgImage: '/work-2.png',
+        bgImage: '/food-delivery-app.jpg',
         link:'https://github.com/sahusuneel777/foodDeliveryApp',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'ConnectIn',
+        description: 'A fullstack LinkedIn Mobile app clone',
+        bgImage: '/linkedin.png',
+        link:'https://github.com/sahusuneel777/ConnectIn-LinkedIn-Clone-',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Image Generration using AI',
+        description: 'Fullstack Image Generator app powered by OPENAI Dall E',
+        bgImage: '/image-generater.png',
+        link:'https://github.com/sahusuneel777/image-generator',
     },
 ]
 
