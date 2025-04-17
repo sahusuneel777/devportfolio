@@ -27,7 +27,7 @@ const Header = () => {
     transition={{duration: 0.8, delay: 0.5}}
     viewport={{ once: true }}
     className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-        software developer based in Hyderabad.</motion.h1>
+        Full stack developer.</motion.h1>
 
         <motion.p
         viewport={{ once: true }}
