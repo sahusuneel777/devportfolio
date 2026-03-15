@@ -45,7 +45,7 @@ const About = ({isDarkMode}) => {
             transition={{duration: 0.6, delay: 0.8}}
             className='flex-1'>
                 <p className='mb-10 max-w-2xl font-Ovo'>
-                    I'm a Full-stack developer with a passion for building modern web and mobile applications. Skilled in React, React Native, Node.js, MongoDB and cloud. I create user-focused, scalable solutions with clean code and smooth UX. Always learning, always shipping. 🚀
+                    I'm a Full-stack developer with a passion for building modern web and mobile applications. Skilled in React, React Native, Typescript, Node.js and AWS cloud. I create user-focused, scalable solutions with clean code and smooth UX. Always learning, always shipping. 🚀
                 </p>
 
                 <motion.ul
